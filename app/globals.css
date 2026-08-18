@@ -292,3 +292,10 @@ footer > span { justify-self:end; font-size:.58rem; font-weight:900; letter-spac
   .footer-brand,footer > span { justify-self:center; }
 }
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } *,*::before,*::after { transition-duration:.01ms!important; } }
+
+.research-visual img,
+.research-artefact img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}

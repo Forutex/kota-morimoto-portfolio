@@ -1,69 +1,53 @@
 # Kota Morimoto — Graduate Portfolio
 
-大学院での学習とプロジェクトを紹介する、日本語・英語対応のポートフォリオです。
+A bilingual portfolio presenting my graduate studies and projects in Information Technology, Human-Centred Design, Web Application Development, Database Design, and Project Management.
 
-## 掲載内容
+大学院で取り組んだ情報技術、人間中心設計、Webアプリケーション開発、データベース設計、プロジェクトマネジメントの学習成果を紹介する日英対応のポートフォリオです。
 
-- Digital Experience Design Studio — User Research / HCD
-- Internet Programming — Expense Tracker Web Application
-- Database — Starbucks Ordering Database
-- Project Management — Playtesting AI Project Plan
+## Live Portfolio
 
-## ローカルで確認する
+[View the Portfolio / ポートフォリオを見る](https://kota-morimoto-portfolio.vercel.app)
 
-Node.js 20.9以上をインストールした状態で、プロジェクトフォルダ内から以下を実行します。
+## Featured Projects
+
+### Digital Experience Design Studio
+
+A Human-Centred Design project focused on user research. Our team conducted interviews with 10 participants and organised the findings through affinity diagramming and persona development. Based on the research, we proposed a digital experience related to older adults and music.
+
+人間中心設計に基づいたユーザーリサーチプロジェクトです。10名へのインタビューを実施し、Affinity DiagramやPersonaを通して調査結果を整理しました。その結果をもとに、高齢者と音楽に関するデジタル体験を提案しました。
+
+### Expense Tracker Web Application
+
+A full-stack Web application developed using React, Vite, FastAPI, and MySQL. Through this project, I experienced the process of connecting the front end, back end, and database, including CRUD operations, search, JWT authentication, and role-based access control.
+
+React、Vite、FastAPI、MySQLを使用したフルスタックWebアプリケーションです。CRUD操作、検索、JWT認証、権限管理を含め、フロントエンド、バックエンド、データベースを接続する開発工程を経験しました。
+
+### Starbucks Ordering Database
+
+A database project involving requirements analysis, entity and relationship identification, database modelling, and SQL implementation for a Starbucks ordering system.
+
+スターバックスの注文システムを題材に、要件分析、エンティティとリレーションシップの特定、データベース設計、SQLによる実装に取り組んだプロジェクトです。
+
+### Project Management
+
+A project management plan covering project scope, scheduling, stakeholders, risks, resources, and communication for an AI-based playtesting project.
+
+AIを活用したプレイテストプロジェクトを題材に、スコープ、スケジュール、ステークホルダー、リスク、リソース、コミュニケーションを整理したプロジェクト計画です。
+
+## Portfolio Technology
+
+* Next.js
+* React
+* TypeScript
+* CSS
+* Vercel
+* Japanese and English language support
+
+## Local Development
 
 ```bash
 npm install
 npm run dev
 ```
 
-ブラウザで `http://localhost:3000` を開きます。
-
-## GitHubへ登録する
-
-1. GitHubで空のリポジトリを作成します。
-2. このフォルダ内で以下を実行します。
-
-```bash
-git init
-git add .
-git commit -m "Initial portfolio"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
-git push -u origin main
-```
-
-`YOUR-USERNAME` と `YOUR-REPOSITORY` は、自分のGitHubユーザー名と作成したリポジトリ名に置き換えてください。
-
-## Vercelで公開する
-
-1. VercelへGitHubアカウントでログインします。
-2. **Add New → Project** を選びます。
-3. GitHubへ登録したリポジトリをImportします。
-4. Framework Presetが **Next.js** になっていることを確認します。
-5. **Deploy** を押します。
-
-環境変数やデータベースは使用していないため、追加設定は不要です。GitHubの`main`ブランチへ変更をpushすると、Vercelが自動で再公開します。
-
-## 独自ドメインを使う場合
-
-Vercelのプロジェクト画面で **Settings → Domains** を開き、取得したドメインを追加します。表示されたDNSレコードを、ドメインを購入したサービス側へ登録してください。
-
-## 後から変更する場所
-
-- ホームページ：`app/page.tsx`
-- HCD詳細：`app/projects/digital-experience-design-studio/page.tsx`
-- Expense Tracker詳細：`app/projects/expense-tracker/page.tsx`
-- Database詳細：`app/projects/database/page.tsx`
-- Project Management詳細：`app/projects/project-management/page.tsx`
-- 全体デザイン：`app/globals.css`
-- 画像：`public/projects/`
-
-GitHub URLなどを追加した後は、変更したファイルを保存して以下を実行します。
-
-```bash
-git add .
-git commit -m "Update portfolio"
-git push
-```
+Open `http://localhost:3000` in a browser.
