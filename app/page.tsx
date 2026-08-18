@@ -85,7 +85,7 @@ const content = {
     journey: [
       ["2025 — 2026", "University of Technology Sydney", "Master of Information Technology · Interactive Media"],
       ["Before UTS", "Linfield University", "海外環境での学習・小学校での算数ティーチングアシスタント"],
-      ["Foundation", "Kanto Gakuin University", "研究、学生団体の設立、4年間の塾講師経験"],
+      ["Foundation", "Kanto Gakuin University", "スポーツチャンバラサークルの設立、4年間の塾講師経験"],
     ],
     footer: "このポートフォリオは、プロジェクト資料に合わせて更新していきます。",
   },
@@ -168,7 +168,7 @@ const content = {
     journey: [
       ["2025 — 2026", "University of Technology Sydney", "Master of Information Technology · Interactive Media"],
       ["Before UTS", "Linfield University", "International study and mathematics teaching assistant at an elementary school"],
-      ["Foundation", "Kanto Gakuin University", "Research, founding a student club and four years of tutoring experience"],
+      ["Foundation", "Kanto Gakuin University", "Founded a Sports Chanbara club and worked as a tutor for four years"],
     ],
     footer: "This portfolio will grow as project materials are added.",
   },
