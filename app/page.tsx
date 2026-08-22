@@ -40,7 +40,7 @@ const content = {
     },
     expense: {
       type: "INTERNET PROGRAMMING · FULL-STACK WEB APPLICATION",
-      title: "ReactとFastAPIをつないだExpense Tracker",
+      title: "Web家計簿アプリのチーム開発",
       body: "React/Viteのフロントエンド、FastAPIのREST API、MySQLのデータ層を接続し、CRUD、検索、認証、権限管理を備えたWebアプリケーションをチームで開発しました。",
       tags: ["React / Vite", "FastAPI / Pydantic", "SQLAlchemy / MySQL", "JWT / RBAC"],
       learning: "担当：ExpenseモデルとSchema、CRUD・検索APIなど、主にバックエンド側の実装。",
@@ -49,7 +49,6 @@ const content = {
     },
     learningKicker: "WHAT I LEARNED",
     learningTitle: "大学院で学んだこと",
-    learningIntro: "実装・体験・データを分けずに考えられることが、私の大学院での学びの軸です。",
     learningAreas: [
       {
         no: "01",
@@ -123,7 +122,7 @@ const content = {
     },
     expense: {
       type: "INTERNET PROGRAMMING · FULL-STACK WEB APPLICATION",
-      title: "Building an Expense Tracker with React and FastAPI",
+      title: "Team Development of a Web-Based Expense Tracker",
       body: "A team-built web application connecting a React/Vite frontend, FastAPI REST API and MySQL data layer, with CRUD, search, authentication and role-based access.",
       tags: ["React / Vite", "FastAPI / Pydantic", "SQLAlchemy / MySQL", "JWT / RBAC"],
       learning: "Contribution: mainly backend implementation, including the Expense model and schemas, CRUD and search APIs.",
@@ -132,7 +131,6 @@ const content = {
     },
     learningKicker: "WHAT I LEARNED",
     learningTitle: "What I Learned at Graduate School",
-    learningIntro: "My graduate work is grounded in connecting implementation, experience and data rather than treating them separately.",
     learningAreas: [
       {
         no: "01",
@@ -268,7 +266,6 @@ export default function Home() {
           <div className="section-heading light-heading">
             <div><p className="kicker">{text.learningKicker}</p><i /></div>
             <h2>{text.learningTitle}</h2>
-            <p>{text.learningIntro}</p>
           </div>
           <div className="learning-grid">{text.learningAreas.map((area) => <article key={area.no}><span>{area.no}</span><h3>{area.title}</h3><p>{area.body}</p><ul>{area.chips.map((chip) => <li key={chip}>{chip}</li>)}</ul></article>)}</div>
         </section>
